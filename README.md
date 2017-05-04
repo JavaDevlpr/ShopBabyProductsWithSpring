@@ -35,4 +35,13 @@ Example 3: Enter below text on GUI and click button Search scissor,bath_towel
 
 Output 6, 11.0
 
-Deployment : Import project in your Eclipse IDE, run with server. When everything works fine, make it's war file and deploy on Tomcat server.
+Deployment : 
+1. Clone project in Eclipse in Git perspecive using below url :
+https://github.com/JavaDevlpr/ShopBabyProductsWithSpring.git
+2. Import project 'shopbabyproducts' from your workspace where git copied master branch
+3. Configure build path by right clicking on project,set JRE system Library and Apache Tomcat 8.0. If Runtime Enviornment is not set then 1st set Windows-Preferences-Server-Runtime Enviornment- Add Apache Tomcat 8.0
+If still there are any errors for servlet then Configure build path and set Project Facest, set Runtimes. 
+
+Now everything looks great. Just right click on project and Run as - Run on server, select Apache server, select tomcat 8.0 and click finish. You will see home page where you can insert above inputs and see the result.
+
+You either can make it's war file and deploy on Tomcat server.
